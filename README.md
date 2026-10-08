@@ -62,11 +62,11 @@ Além de praticar JavaScript, o desafio também ajuda a desenvolver conhecimento
 | Projeto 30 | ⏳ Em andamento | HTML, CSS, JavaScript |
 
 ---
-
 ## 🗂️ Organização
 
 Cada projeto possui sua própria pasta:
 
+```text
 30-days-30-javascript-projects/
 │
 ├── Projeto 01/
@@ -82,17 +82,3 @@ Cada projeto possui sua própria pasta:
 │   └── index.html
 │
 └── README.md
-
-
-E também recomendo trocar esta parte:
-
-
-## 🛠️ Tecnologias
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-- HTML5
-- CSS3
-- JavaScript
