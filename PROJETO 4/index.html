@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gus4Dev">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar Using JavaScript - 30 Days 30 Projects - 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="skill">
+        <div class="outer">
+            <div class="inner">
+                <div id="number">
+                <!--65%-->
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+
+                <linearGradient id="GradientColor">
+                    <!-- Persona 3 Game -->
+                    <stop offset="0%" stop-color="#2d6cdf" />
+                    <!-- Persona 4 Game -->
+                    <stop offset="50%" stop-color="#f5c542" />
+                    <!-- Persona 5 Game -->
+                    <stop offset="100%" stop-color="#e63946" />
+                </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <script>
+        let number = document.getElementById("number");
+
+        let counter = 0;
+
+        let intervalo = setInterval(function () {
+            if (counter == 65) {
+                clearInterval(intervalo);
+            } else {
+                counter += 1;
+                number.innerHTML = counter + "%";
+            }
+        }, 30);
+    </script>
+</body>
+
+</html>
